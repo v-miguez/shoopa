@@ -1,6 +1,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 }
 
 footer{
@@ -34,4 +35,56 @@ footer .support{
 	display: flex;
 flex-direction: column;
 width: 20%;
+}
+
+.imagenseniorita img{
+	width: 100%;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+}
+.title{
+	width: 100%;
+	padding: 1em;
+	font-size: 1em;
+	font-weight: bold;
+	color: #888888;
+	text-align: center;
+
+}
+.articulos{
+	padding-right: 10%;
+	padding-left: 10%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-bottom: 2em;
+}
+.articulo{
+	position: relative;
+	border: solid 2px black;
+	width: 20%;
+	text-align: center;
+}
+.articulo img{
+	width: 100%;
+}
+.descuento{
+	position: absolute; 
+	left: 0px;
+	top: 15px;
+	padding: 0.3em 1em 0.3em 1em;
+	background-color: red;
+	color: white;
+}
+.brands{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.brands img{
+	border: solid 2px #CDC9C2;
 }
