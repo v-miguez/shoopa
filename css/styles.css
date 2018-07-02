@@ -1,4 +1,5 @@
 *{
+	text-decoration: none;
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
@@ -37,6 +38,7 @@ flex-direction: column;
 width: 20%;
 }
 
+<<<<<<< HEAD
 .imagenseniorita img{
 	width: 100%;
 }
@@ -84,7 +86,46 @@ width: 20%;
 	justify-content: space-between;
 	padding-left: 15%;
 	padding-right: 15%;
+	margin-bottom: 1em;
 }
 .brands img{
 	border: solid 2px #CDC9C2;
 }
+
+.contenedor{
+	display: flex;
+	flex-flow: column;
+}
+
+header{
+	width: 100%;
+	padding: 0.7em;
+	padding-left: 5em;
+	background-color: white;
+	/*FLEX*/
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;}
+
+header nav{
+	width: 35%;
+	/*FLEX*/
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;}
+nav a{
+		font-weight: bold;
+	font-size: 17px;
+	color: #0B0603;
+	text-align: center;
+	padding: 25px 25px 25px 25px;}
+nav a:hover{
+	font-size: 17px;
+	font-weight: bold;
+	color: #9D9998;
+	text-align: center;
+	transition-duration: 1s;
+	border-bottom: solid 2px red;}
+
+
