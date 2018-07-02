@@ -1,0 +1,37 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+footer{
+	background-color: #E7E8E6;
+	color: #888888;
+	padding: 2em 4em 2em 4em;
+	display: flex;
+
+}
+footer h1{
+	color: black;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+
+footer .ourstores{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+footer .blogpost{
+	display: flex;
+flex-direction: column;
+
+margin-right: 1em;
+}
+
+footer .support{
+	display: flex;
+flex-direction: column;
+width: 20%;
+}
