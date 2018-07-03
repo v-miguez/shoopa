@@ -38,7 +38,7 @@ flex-direction: column;
 width: 20%;
 }
 
-<<<<<<< HEAD
+
 .imagenseniorita img{
 	width: 100%;
 }
@@ -65,6 +65,7 @@ width: 20%;
 	margin-bottom: 2em;
 }
 .articulo{
+	width: 100%;
 	position: relative;
 	border: solid 2px black;
 	width: 20%;
